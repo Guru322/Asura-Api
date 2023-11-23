@@ -1,0 +1,18 @@
+{
+    "name": "asura-api",
+    "version": "1.0.0",
+    "description": "Asurascans Scraper Api",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": {
+      "name": "Guru",
+      "email": "owner@guruapi.tech"},
+    "dependencies": {
+      "express": "^4.17.1",
+      "asurascans_scraper": "latest"
+    }
+  }
+  
