@@ -2,6 +2,7 @@ import express from 'express';
 import { asuraSearch, asuraPopular, asuraPopularToday, asuraLastUpdate, asuraEpDownloader, asuraDetails, asuraPdf } from './module.js';
 
 const app = express();
+app.set("json spaces",2)
 const PORT = process.env.PORT || 3000;
 
 
