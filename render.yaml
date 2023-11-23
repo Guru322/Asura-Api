@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: Asura
+    env: docker
+    region: Singapore
+    plan: free
